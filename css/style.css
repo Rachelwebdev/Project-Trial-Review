@@ -1,0 +1,26 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#header-img {
+  width: 20%;
+}
+
+#nav-bar ul {
+  display: flex;
+  padding: 0 3rem;
+}
+#nav-bar ul li {
+  list-style: none;
+}
+#nav-bar ul li a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 1rem;
+}
+
+@media all and (max-width: 768px) {
+  #header {
+    width: 100%;
+  }
+}
